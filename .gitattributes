@@ -1,0 +1,15 @@
+# Language detection rules
+*.jpg binary
+*.rs linguist-detectable
+
+public/index.html linguist-vendored
+*.html linguist-vendored
+vendor/* linguist-vendored
+
+go.sum linguist-generated
+
+* text=auto eol=lf
+*.gif binary
+dist/* linguist-vendored
+
+yarn.lock linguist-generated
